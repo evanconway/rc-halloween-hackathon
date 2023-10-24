@@ -27,3 +27,5 @@ I'm comfortable with our room transition system now. It dynamically remakes the 
 We also need to figure out the concept of world state, but I'm not as worried about this. I can already imagine a system for giving different dialog for an interact based on the return value of some globally scoped function. Honestly we could just use a globally scoped map.
 
 Since I don't expect we'll have any actions besides interacting with objects, I think we won't have to worry much about further app state. We may do cut scenes but I think we can manage this with our current system. Next let's give the player some basic sprites and implement the concept of direction and interacting by being next to something and facing it.
+
+Implementing direction wasn't too hard. I also don't think creating animated sprites will be too difficult either, but I'd like to think through this a little more. We want to create dozens of characters for this game, but if we do that I wonder if there's some way to let the player choose their own sprite? I'm tempted to rig up some sort of sprite selection system for game entities.
