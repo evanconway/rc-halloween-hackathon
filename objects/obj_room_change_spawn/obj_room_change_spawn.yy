@@ -1,10 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_room_change_point",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "name": "obj_room_change_spawn",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -28,9 +26,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_room_change_point",
-    "path": "sprites/spr_room_change_point/spr_room_change_point.yy",
+    "name": "spr_player",
+    "path": "sprites/spr_player/spr_player.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

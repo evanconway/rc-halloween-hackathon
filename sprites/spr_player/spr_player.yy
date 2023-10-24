@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "rc-halloween-hackathon",
-    "path": "rc-halloween-hackathon.yyp",
+    "name": "Player",
+    "path": "folders/Player.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

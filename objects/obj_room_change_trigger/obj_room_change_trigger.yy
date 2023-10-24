@@ -1,15 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_player",
+  "name": "obj_room_change_trigger",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Player",
-    "path": "folders/Player.yy",
+    "name": "Room_Change",
+    "path": "folders/Room_Change.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_player",
-    "path": "sprites/spr_player/spr_player.yy",
+    "name": "spr_room_change_trigger",
+    "path": "sprites/spr_room_change_trigger/spr_room_change_trigger.yy",
   },
   "spriteMaskId": null,
   "visible": true,

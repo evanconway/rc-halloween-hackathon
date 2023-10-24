@@ -11,3 +11,5 @@ For moving between rooms, we're going to copy the system I used in the last game
 Running into some issues but I think I realized the issue. We're setting a global variable to track room and point target. But that variable is an instance in the current room. Once we change rooms we lose access to that information. So we need to take information from the target point instead of the original point after we change rooms.
 
 That fixed the issue. What's left now is an easy way to set the position the player ends at when changing to a point in a room. I also want an easy to way to change what point a point brings the player to. For example what if we created an elevator room. The elevator itself could be a room and interacting with the panel changes which floor it brings you to.
+
+We're going to add spawn points. These points will be targets of change points. This will let us specify exactly where we want the player to go in a visual way.

@@ -1,5 +1,5 @@
 target_room = rm_change;
-target_point = inst_35AC2325;
+target_spawn = inst_9749ECB;
 
 game_world_init_instance();
 
