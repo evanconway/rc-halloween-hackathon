@@ -1,15 +1,17 @@
-global.game_world_instances = [];
+global.game_world_instances = ds_map_create();
 
 function game_world_init_instance() {
 	update = function() {
 		show_debug_message($"Game world instance id:{id} does not have defined update function.");
 	};
-	array_push(global.game_world_instances, id);
+	ds_map_set(global.game_world_instances, id, noone);
 }
 
 function game_world_update() {
-	var game_world_instance_count = array_length(global.game_world_instances);
+	var ids = ds_map_keys_to_array(global.game_world_instances);
+	var game_world_instance_count = array_length(ids);
 	for (var i = 0; i < game_world_instance_count; i++) {
-		global.game_world_instances[i].update();
+		if (instance_exists(ids[i])) ids[i].update();
+		else ds_map_delete(global.game_world_instances, ids[i]);
 	}
 }

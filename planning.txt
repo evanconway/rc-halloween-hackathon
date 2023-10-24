@@ -1,0 +1,9 @@
+24th of October, 2023
+
+We have a basic system that let's us interact with game intities and start a dialog. The structure of our game was simpler to setup than I was expecting, so I'd like to explore a little bit. Let's see if we can add changing rooms to the game.
+
+Actually, starting to add this has made me think more seriously about app structure. I'm going to try switching this to the stack system I've described before. All game "states" will be something that can be updated independantly. Game states will be added to a stack, and only the top element of the stack will be updated at any point.
+
+Eh... nevermind. This is turning out to be annoying. Also I think this is an instance of anticipating complexity instead of accomodating complexity. There's no reason to write this yet so let's not. We'll shove the room changing code into what we've already got.
+
+For moving between rooms, we're going to copy the system I used in the last game I remember doing this with. We'll have "change points" which contain a reference to another room and another change point. Hitting one of these change points will activate a room changing object wich will change the room, and then set the player to the position of the target change point. We'll also add a slow fade out animation.
