@@ -11,7 +11,10 @@
     "name": "rc-halloween-hackathon",
     "path": "rc-halloween-hackathon.yyp",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_wall",
+    "path": "objects/obj_wall/obj_wall.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

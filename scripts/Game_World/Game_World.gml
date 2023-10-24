@@ -1,3 +1,10 @@
+enum DIR {
+	NORTH,
+	SOUTH,
+	EAST,
+	WEST
+}
+
 global.game_world_instances = ds_map_create();
 
 function game_world_init_instance() {

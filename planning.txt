@@ -13,3 +13,17 @@ Running into some issues but I think I realized the issue. We're setting a globa
 That fixed the issue. What's left now is an easy way to set the position the player ends at when changing to a point in a room. I also want an easy to way to change what point a point brings the player to. For example what if we created an elevator room. The elevator itself could be a room and interacting with the panel changes which floor it brings you to.
 
 We're going to add spawn points. These points will be targets of change points. This will let us specify exactly where we want the player to go in a visual way.
+
+I'm comfortable with our room transition system now. It dynamically remakes the player when moving to a new room, which I think is the right move. To figure out the next step lets list features that I think this game should have:
+
+-Graphical style and structure of early Zelda top down. 
+-Walkling animations
+-Concept of "direction" and ability to interact with objects in front of player.
+-Dialog triggered from interact (added)
+-Multiple rooms
+-Transitions between rooms (added)
+-Elevator between them
+
+We also need to figure out the concept of world state, but I'm not as worried about this. I can already imagine a system for giving different dialog for an interact based on the return value of some globally scoped function. Honestly we could just use a globally scoped map.
+
+Since I don't expect we'll have any actions besides interacting with objects, I think we won't have to worry much about further app state. We may do cut scenes but I think we can manage this with our current system. Next let's give the player some basic sprites and implement the concept of direction and interacting by being next to something and facing it.
