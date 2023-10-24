@@ -10,14 +10,17 @@ update = function() {
 	var vel_x = 0;
 	var vel_y = 0;
 		
+	//image_speed = 0;
+	//image_index = 0;
+		
 	if (keyboard_check(vk_up)) vel_y -= vel;
 	if (keyboard_check(vk_down)) vel_y += vel;
 	if (keyboard_check(vk_left)) vel_x -= vel;
 	if (keyboard_check(vk_right)) vel_x += vel;
 	
 	pixel_move_by_magnitudes_against(id.pixel_move, vel_x, vel_y, function (x, y) {
-			return place_meeting(x, y, obj_wall);
-		});
+		return place_meeting(x, y, obj_wall);
+	});
 	x = pixel_move_get_x(id.pixel_move);
 	y = pixel_move_get_y(id.pixel_move);
 	
