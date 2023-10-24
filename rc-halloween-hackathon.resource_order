@@ -1,6 +1,21 @@
 {
-  "FolderOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"Dialog","order":16,"path":"folders/Dialog.yy",},
+    {"name":"Dialog_Display","order":17,"path":"folders/Dialog_Display.yy",},
+  ],
   "ResourceOrderSettings": [
-    {"name":"Room1","order":15,"path":"rooms/Room1/Room1.yy",},
+    {"name":"obj_app","order":21,"path":"objects/obj_app/obj_app.yy",},
+    {"name":"spr_player","order":24,"path":"sprites/spr_player/spr_player.yy",},
+    {"name":"obj_init","order":18,"path":"objects/obj_init/obj_init.yy",},
+    {"name":"Util","order":19,"path":"scripts/Util/Util.yy",},
+    {"name":"fnt_generic","order":1,"path":"fonts/fnt_generic/fnt_generic.yy",},
+    {"name":"dialog_tests","order":1,"path":"scripts/dialog_tests/dialog_tests.yy",},
+    {"name":"obj_dialog_display","order":2,"path":"objects/obj_dialog_display/obj_dialog_display.yy",},
+    {"name":"Game_World","order":22,"path":"scripts/Game_World/Game_World.yy",},
+    {"name":"obj_player","order":23,"path":"objects/obj_player/obj_player.yy",},
+    {"name":"Sprite2","order":27,"path":"sprites/Sprite2/Sprite2.yy",},
+    {"name":"rm_first","order":25,"path":"rooms/rm_first/rm_first.yy",},
+    {"name":"obj_interact","order":26,"path":"objects/obj_interact/obj_interact.yy",},
+    {"name":"rm_init","order":15,"path":"rooms/rm_init/rm_init.yy",},
   ],
 }
