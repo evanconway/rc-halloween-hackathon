@@ -7,3 +7,7 @@ Actually, starting to add this has made me think more seriously about app struct
 Eh... nevermind. This is turning out to be annoying. Also I think this is an instance of anticipating complexity instead of accomodating complexity. There's no reason to write this yet so let's not. We'll shove the room changing code into what we've already got.
 
 For moving between rooms, we're going to copy the system I used in the last game I remember doing this with. We'll have "change points" which contain a reference to another room and another change point. Hitting one of these change points will activate a room changing object wich will change the room, and then set the player to the position of the target change point. We'll also add a slow fade out animation.
+
+Running into some issues but I think I realized the issue. We're setting a global variable to track room and point target. But that variable is an instance in the current room. Once we change rooms we lose access to that information. So we need to take information from the target point instead of the original point after we change rooms.
+
+That fixed the issue. What's left now is an easy way to set the position the player ends at when changing to a point in a room. I also want an easy to way to change what point a point brings the player to. For example what if we created an elevator room. The elevator itself could be a room and interacting with the panel changes which floor it brings you to.

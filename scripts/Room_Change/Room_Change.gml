@@ -1,5 +1,6 @@
 global.room_change = {
-	point: noone,
+	point_start: noone,
+	point_end: noone,
 	state: 0,
 	alpha: 0
 };
@@ -14,14 +15,15 @@ function room_change_init() {
  * @param {Id.Instance} room_change_point
  */
 function room_change_set(room_change_point) {
-	global.room_change.point = room_change_point;
+	global.room_change.point_start = room_change_point;
+	global.room_change.point_end = room_change_point == noone ? noone : room_change_point.target_point;
 }
 
 /**
  * Get whether or not a room change is active.
  */
 function room_change_active() {
-	return global.room_change.point != noone;
+	return global.room_change.point_start != noone;
 }
 
 function room_change_update() {
@@ -33,15 +35,13 @@ function room_change_update() {
 			global.room_change.alpha = 1;
 		}
 	} else if (global.room_change.state == 1) {
-		room_goto(global.room_change.point.target_room);
+		room_goto(global.room_change.point_start.target_room);
 		global.room_change.state = 2;
 	} else if (global.room_change.state == 2) {
-		if (instance_exists(global.room_change.point)) with (obj_player) {
-			x = global.room_change.point.x;
-			y = global.room_change.point.y;
-			show_debug_message($"Setting player position to point:{global.room_change.point}.");
-		} else {
-			show_debug_message($"change point id:{global.room_change.point} does not exist.");
+		with (obj_player) {
+			// TODO: Consider setting player position here
+			// x = global.room_change.point_end.x;
+			// y = global.room_change.point_end.y;
 		}
 		global.room_change.alpha -= alpha_change_rate;
 		if (global.room_change.alpha <= 0) {
