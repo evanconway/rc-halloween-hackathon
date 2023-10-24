@@ -2,6 +2,8 @@
   "FolderOrderSettings": [
     {"name":"Dialog","order":16,"path":"folders/Dialog.yy",},
     {"name":"Dialog_Display","order":17,"path":"folders/Dialog_Display.yy",},
+    {"name":"PixelMove","order":30,"path":"folders/PixelMove.yy",},
+    {"name":"tests","order":1,"path":"folders/PixelMove/tests.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_app","order":21,"path":"objects/obj_app/obj_app.yy",},
@@ -10,12 +12,16 @@
     {"name":"Util","order":19,"path":"scripts/Util/Util.yy",},
     {"name":"fnt_generic","order":1,"path":"fonts/fnt_generic/fnt_generic.yy",},
     {"name":"dialog_tests","order":1,"path":"scripts/dialog_tests/dialog_tests.yy",},
+    {"name":"PixelUtil","order":3,"path":"scripts/PixelUtil/PixelUtil.yy",},
     {"name":"obj_dialog_display","order":2,"path":"objects/obj_dialog_display/obj_dialog_display.yy",},
+    {"name":"PixelMove","order":2,"path":"scripts/PixelMove/PixelMove.yy",},
     {"name":"Game_World","order":22,"path":"scripts/Game_World/Game_World.yy",},
     {"name":"obj_player","order":23,"path":"objects/obj_player/obj_player.yy",},
     {"name":"Sprite2","order":27,"path":"sprites/Sprite2/Sprite2.yy",},
     {"name":"rm_first","order":25,"path":"rooms/rm_first/rm_first.yy",},
     {"name":"obj_interact","order":26,"path":"objects/obj_interact/obj_interact.yy",},
+    {"name":"Sprite3","order":29,"path":"sprites/Sprite3/Sprite3.yy",},
+    {"name":"obj_wall","order":28,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"rm_init","order":15,"path":"rooms/rm_init/rm_init.yy",},
   ],
 }
