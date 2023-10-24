@@ -25,7 +25,7 @@ function room_change_active() {
 }
 
 function room_change_update() {
-	var alpha_change_rate = 0.01;
+	var alpha_change_rate = 0.015;
 	if (global.room_change.state == 0) {
 		global.room_change.alpha += alpha_change_rate;
 		if (global.room_change.alpha >= 1) {
@@ -36,9 +36,12 @@ function room_change_update() {
 		room_goto(global.room_change.point.target_room);
 		global.room_change.state = 2;
 	} else if (global.room_change.state == 2) {
-		with (obj_player) {
+		if (instance_exists(global.room_change.point)) with (obj_player) {
 			x = global.room_change.point.x;
 			y = global.room_change.point.y;
+			show_debug_message($"Setting player position to point:{global.room_change.point}.");
+		} else {
+			show_debug_message($"change point id:{global.room_change.point} does not exist.");
 		}
 		global.room_change.alpha -= alpha_change_rate;
 		if (global.room_change.alpha <= 0) {
