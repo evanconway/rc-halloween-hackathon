@@ -32,20 +32,25 @@ function dialog_display_get_choice() {
 	return dialog_get_choice(global.dialog);
 }
 
+function dialog_display_typing_finished() {
+	if (!dialog_display_active()) return false;
+	return global.text_cursor == string_length(dialog_get_text(global.dialog)) + 1;
+}
+
 function dialog_display_update() {
 	var text = dialog_get_text(global.dialog);
 	var text_length = string_length(text);
-	if (global.text_cursor < text_length) {
+	if (global.text_cursor <= text_length) {
 		global.text_advance += 0.1;
 		if (global.text_advance >= 1) {
 			global.text_advance = 0;
 			global.text_cursor = string_pos_ext(" ", text, global.text_cursor + 1);
 		}
-		if (keyboard_check_pressed(vk_anykey) || global.text_cursor <= 0) global.text_cursor = text_length;
+		if (keyboard_check_pressed(vk_anykey) || global.text_cursor <= 0) global.text_cursor = text_length + 1;
 		return;
 	}
 	
-	global.text_cursor = text_length;
+	global.text_cursor = text_length + 1;
 	
 	if (keyboard_check_pressed(vk_space)) {
 		global.text_cursor = 1;

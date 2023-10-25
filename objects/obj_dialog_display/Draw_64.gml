@@ -34,6 +34,8 @@ draw_text_ext(
 	box_width - spacer * 2
 );
 
+if (!dialog_display_typing_finished()) exit;
+
 var choices = dialog_get_choices_text(global.dialog);
 
 var choice_spacer = spacer;
