@@ -37,6 +37,7 @@
     {"id":{"name":"spr_girl_w","path":"sprites/spr_girl_w/spr_girl_w.yy",},},
     {"id":{"name":"spr_girl_e","path":"sprites/spr_girl_e/spr_girl_e.yy",},},
     {"id":{"name":"spr_guy_s","path":"sprites/spr_guy_s/spr_guy_s.yy",},},
+    {"id":{"name":"Character_Sprites","path":"scripts/Character_Sprites/Character_Sprites.yy",},},
     {"id":{"name":"spr_player_w","path":"sprites/spr_player_w/spr_player_w.yy",},},
     {"id":{"name":"Room_Change","path":"scripts/Room_Change/Room_Change.yy",},},
     {"id":{"name":"spr_player_s","path":"sprites/spr_player_s/spr_player_s.yy",},},

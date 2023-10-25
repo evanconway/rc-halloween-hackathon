@@ -18,6 +18,7 @@
     {"name":"obj_app","order":16,"path":"objects/obj_app/obj_app.yy",},
     {"name":"spr_girl_w","order":3,"path":"sprites/spr_girl_w/spr_girl_w.yy",},
     {"name":"spr_girl_e","order":1,"path":"sprites/spr_girl_e/spr_girl_e.yy",},
+    {"name":"Character_Sprites","order":3,"path":"scripts/Character_Sprites/Character_Sprites.yy",},
     {"name":"spr_player_w","order":4,"path":"sprites/spr_player_w/spr_player_w.yy",},
     {"name":"Room_Change","order":1,"path":"scripts/Room_Change/Room_Change.yy",},
     {"name":"spr_player_s","order":1,"path":"sprites/spr_player_s/spr_player_s.yy",},
