@@ -14,6 +14,9 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e2ab3f8f-ef8f-4d8c-8f2b-8cef6a494d33",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ab5611e9-f39f-4213-a513-5dc3ab71850c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"690d5ba4-0c54-407c-9b90-25d986149237",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"41d2c463-81da-42bd-b216-88551334f379",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -43,11 +46,11 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 1.0,
+    "length": 4.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 5.0,
     "playbackSpeedType": 0,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -55,6 +58,9 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e2ab3f8f-ef8f-4d8c-8f2b-8cef6a494d33","path":"sprites/spr_girl_n/spr_girl_n.yy",},},},"Disabled":false,"id":"7a8b87d5-a6f7-4a06-9a25-aea90baafe3c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ab5611e9-f39f-4213-a513-5dc3ab71850c","path":"sprites/spr_girl_n/spr_girl_n.yy",},},},"Disabled":false,"id":"7ab16cb4-ce7f-47d9-a3fd-9a2788052af9","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"690d5ba4-0c54-407c-9b90-25d986149237","path":"sprites/spr_girl_n/spr_girl_n.yy",},},},"Disabled":false,"id":"d1c44485-3f41-4727-8e95-0938bd61e2ae","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"41d2c463-81da-42bd-b216-88551334f379","path":"sprites/spr_girl_n/spr_girl_n.yy",},},},"Disabled":false,"id":"2f09cf2f-6d40-4847-8b60-80c6c88a85f7","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
