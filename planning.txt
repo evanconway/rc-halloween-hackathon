@@ -41,3 +41,7 @@ This will let us create a total of 8 frames per character. Hopefully that's pret
 Why don't we start by making a single character. We'll integrate it into the player and see how we feel after.
 
 Ah, I realized that we should not do the sprite flipping trick because that won't work for East and West travel. For those directions we'll need individual sprites. So I think it'll be easier to just manually flip sprites.
+
+We created 2 characters, got walking animations working, and got the interact object to have character sprites which face the player on interact.
+
+I have some thoughts to clean up and simplify some things. Firstly I think it was a mistake to let elements of app stack reference game world objects as much as they do. Let's change the room change so it only references the target room and spawn point. Also I think interacts should be game objects that update themselves to have the correct sprite, and not have the dialog logic do that.

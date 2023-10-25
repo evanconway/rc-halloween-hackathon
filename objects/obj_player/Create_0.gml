@@ -77,7 +77,7 @@ update = function() {
 	var interact = instance_position(interact_x, interact_y, obj_interact);
 	
 	if (keyboard_check_pressed(vk_space) && interact != noone) {
-		dialog_display_set_dialog(interact);
+		dialog_display_set_dialog(new Dialog(interact.dialog_data));
 		
 		// set interact sprite to face player
 		var diff_x = abs(interact.x - x);
