@@ -50,6 +50,7 @@
     {"id":{"name":"obj_room_change_spawn","path":"objects/obj_room_change_spawn/obj_room_change_spawn.yy",},},
     {"id":{"name":"PixelUtil","path":"scripts/PixelUtil/PixelUtil.yy",},},
     {"id":{"name":"obj_dialog_display","path":"objects/obj_dialog_display/obj_dialog_display.yy",},},
+    {"id":{"name":"rm_bigger","path":"rooms/rm_bigger/rm_bigger.yy",},},
     {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"id":{"name":"PixelMove","path":"scripts/PixelMove/PixelMove.yy",},},
     {"id":{"name":"Player","path":"scripts/Player/Player.yy",},},
@@ -71,6 +72,7 @@
     {"roomId":{"name":"rm_base","path":"rooms/rm_base/rm_base.yy",},},
     {"roomId":{"name":"rm_first","path":"rooms/rm_first/rm_first.yy",},},
     {"roomId":{"name":"rm_change","path":"rooms/rm_change/rm_change.yy",},},
+    {"roomId":{"name":"rm_bigger","path":"rooms/rm_bigger/rm_bigger.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

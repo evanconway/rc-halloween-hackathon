@@ -21,4 +21,8 @@ function game_world_update() {
 		if (instance_exists(ids[i])) ids[i].update();
 		else ds_map_delete(global.game_world_instances, ids[i]);
 	}
+	var player = instance_find(obj_player, 0);
+	show_debug_message($"({player.x}, {player.y})");
+	
+	camera_set_view_pos(view_camera[0], player.x, player.y);
 }

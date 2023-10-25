@@ -28,6 +28,7 @@
     {"name":"obj_room_change_spawn","order":5,"path":"objects/obj_room_change_spawn/obj_room_change_spawn.yy",},
     {"name":"PixelUtil","order":3,"path":"scripts/PixelUtil/PixelUtil.yy",},
     {"name":"obj_dialog_display","order":2,"path":"objects/obj_dialog_display/obj_dialog_display.yy",},
+    {"name":"rm_bigger","order":21,"path":"rooms/rm_bigger/rm_bigger.yy",},
     {"name":"rm_init","order":19,"path":"rooms/rm_init/rm_init.yy",},
     {"name":"PixelMove","order":2,"path":"scripts/PixelMove/PixelMove.yy",},
     {"name":"Player","order":2,"path":"scripts/Player/Player.yy",},
