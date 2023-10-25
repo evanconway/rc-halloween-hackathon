@@ -1,14 +1,14 @@
 {
   "FolderOrderSettings": [
+    {"name":"Character Sprites","order":20,"path":"folders/Character Sprites.yy",},
+    {"name":"Girl","order":1,"path":"folders/Character Sprites/Girl.yy",},
+    {"name":"Guy","order":2,"path":"folders/Character Sprites/Guy.yy",},
     {"name":"Dialog_Display","order":2,"path":"folders/Dialog_Display.yy",},
     {"name":"Dialog","order":1,"path":"folders/Dialog.yy",},
     {"name":"PixelMove","order":13,"path":"folders/PixelMove.yy",},
     {"name":"tests","order":1,"path":"folders/PixelMove/tests.yy",},
     {"name":"Player","order":18,"path":"folders/Player.yy",},
     {"name":"Room_Change","order":17,"path":"folders/Room_Change.yy",},
-    {"name":"Character Sprites","order":20,"path":"folders/Character Sprites.yy",},
-    {"name":"Girl","order":1,"path":"folders/Character Sprites/Girl.yy",},
-    {"name":"Guy","order":2,"path":"folders/Character Sprites/Guy.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_guy_e","order":2,"path":"sprites/spr_guy_e/spr_guy_e.yy",},

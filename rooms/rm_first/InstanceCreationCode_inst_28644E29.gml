@@ -1,7 +1,7 @@
 dialog_data = [
-	"I have unique dialog",
+	"I have unique dialog.",
 	{
-		text: "Choose your path",
+		text: "Choose your path.",
 		choices: [
 			{
 				text: "Left",
@@ -37,5 +37,5 @@ dialog_data = [
 		name: "after",
 		text: "May your travels bring you great fortune."
 	},
-	"Goodbye"
+	"Goodbye."
 ];
