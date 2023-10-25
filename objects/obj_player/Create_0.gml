@@ -9,7 +9,7 @@ update = function() {
 	var vel = 1;
 	var vel_x = 0;
 	var vel_y = 0;
-		
+	
 	//image_speed = 0;
 	//image_index = 0;
 		

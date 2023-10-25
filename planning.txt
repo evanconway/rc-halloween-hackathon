@@ -29,3 +29,15 @@ We also need to figure out the concept of world state, but I'm not as worried ab
 Since I don't expect we'll have any actions besides interacting with objects, I think we won't have to worry much about further app state. We may do cut scenes but I think we can manage this with our current system. Next let's give the player some basic sprites and implement the concept of direction and interacting by being next to something and facing it.
 
 Implementing direction wasn't too hard. I also don't think creating animated sprites will be too difficult either, but I'd like to think through this a little more. We want to create dozens of characters for this game, but if we do that I wonder if there's some way to let the player choose their own sprite? I'm tempted to rig up some sort of sprite selection system for game entities.
+
+Yes, I think that's what we should do next. First let's agree that all charcter sprites will have the same format. They'll all be the same size, and thee will be exactly 8 images for each: 4 directions and 2 frames for each direction. Frame 0 will be a standing still frame, and frame 1 will be a stepping forward frame. We'll create walking animations by displaying a loop of:
+frame 0
+frame 1
+frame 0
+frame 1 (mirrored)
+
+This will let us create a total of 8 frames per character. Hopefully that's pretty quick. I think the first character will be the hardest, but once we've got one we can use it as a reference for creating all other characters. We should be able to organize these sprites and create functions to easily reference all of them by some sort of fake name.
+
+Why don't we start by making a single character. We'll integrate it into the player and see how we feel after.
+
+Ah, I realized that we should not do the sprite flipping trick because that won't work for East and West travel. For those directions we'll need individual sprites. So I think it'll be easier to just manually flip sprites.
