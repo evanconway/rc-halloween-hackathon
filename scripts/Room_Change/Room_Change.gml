@@ -45,7 +45,7 @@ function room_change_update() {
 			global.room_change.state = 0;
 			global.room_change.alpha = 0;
 			global.room_change.target_room = undefined;
-	global.room_change.target_spawn = noone;
+			global.room_change.target_spawn = noone;
 		}
 	}
 }

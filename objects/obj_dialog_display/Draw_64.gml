@@ -3,7 +3,6 @@ if (global.dialog == undefined) exit;
 draw_set_font(fnt_generic);
 draw_set_color(c_white);
 draw_set_alpha(1);
-draw_set_halign(fa_center);
 
 var height = string_height("A");
 var cursor = 0;
@@ -11,8 +10,10 @@ var cursor = 0;
 var draw_x = floor(display_get_gui_width() / 2);
 var draw_y = floor(display_get_gui_height() / 2);
 
+
+
 // feather ignore GM1041
-draw_text(draw_x, draw_y + cursor * height, dialog_get_text(global.dialog));
+draw_text_ext(draw_x, draw_y + cursor * height, dialog_display_get_text(), height, 100);
 
 cursor += 1;
 

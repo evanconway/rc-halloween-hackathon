@@ -1,5 +1,6 @@
 function dialog_display_init() {
 	global.dialog = undefined;
+	global.text_cursor = 0;
 	instance_create_depth(0, 0, 0, obj_dialog_display);
 }
 
@@ -19,10 +20,25 @@ file instead of manually putting it in a room
  */
 function dialog_display_set_dialog(dialog) {
 	global.dialog = dialog;
+	global.text_cursor = 0;
+}
+
+function dialog_display_get_text() {
+	return string_copy(dialog_get_text(global.dialog), 0, floor(global.text_cursor));
 }
 
 function dialog_display_update() {
+	var text_length = string_length(dialog_get_text(global.dialog));
+	if (global.text_cursor < text_length) {
+		global.text_cursor += 1.23;
+		if (keyboard_check_pressed(vk_anykey)) global.text_cursor = text_length;
+		return;
+	}
+	
+	global.text_cursor = text_length;
+	
 	if (keyboard_check_pressed(vk_space)) {
+		global.text_cursor = 0;
 		// feather ignore GM1041
 		if (dialog_is_at_end(global.dialog)) {
 			global.dialog = undefined;
