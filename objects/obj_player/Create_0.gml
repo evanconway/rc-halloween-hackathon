@@ -5,8 +5,10 @@ pixel_move = new PixelMove(x, y);
 player_dir = DIR.EAST;
 interact_x = 0;
 interact_y = 0;
-character = CHARACTERS.GUY;
 frame_progress = 0;
+
+character = global.player_character;
+image_blend = global.player_image_blend;
 
 sprite_index = character_sprite(character, player_dir);
 

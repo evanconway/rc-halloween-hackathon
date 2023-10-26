@@ -1,3 +1,6 @@
+global.player_character = random(1) > 0.5 ? CHARACTERS.GIRL : CHARACTERS.GUY;
+global.player_image_blend = make_color_rgb(random(255), random(255), random(255));
+
 function player_create() {
 	if (instance_exists(obj_player)) return;
 	instance_create_depth(0, 0, 0, obj_player);
