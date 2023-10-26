@@ -54,6 +54,8 @@
     {"name":"inst_771B4AC4","path":"rooms/rm_floor_4/rm_floor_4.yy",},
     {"name":"inst_1694DC2D","path":"rooms/rm_floor_4/rm_floor_4.yy",},
     {"name":"inst_40E71C31","path":"rooms/rm_floor_4/rm_floor_4.yy",},
+    {"name":"inst_A696F70","path":"rooms/rm_floor_4/rm_floor_4.yy",},
+    {"name":"inst_58659549","path":"rooms/rm_floor_4/rm_floor_4.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -162,6 +164,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_771B4AC4","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_interact","path":"objects/obj_interact/obj_interact.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":592.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1694DC2D","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_room_change_trigger","path":"objects/obj_room_change_trigger/obj_room_change_trigger.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":3.2,"x":0.0,"y":512.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_40E71C31","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_interact","path":"objects/obj_interact/obj_interact.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":528.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_A696F70","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_interact","path":"objects/obj_interact/obj_interact.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":304.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_58659549","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_interact","path":"objects/obj_interact/obj_interact.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":80.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"below_instances","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_44FB9797","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_kitchen_tile","path":"sprites/spr_kitchen_tile/spr_kitchen_tile.yy",},"x":16.0,"y":128.0,},
