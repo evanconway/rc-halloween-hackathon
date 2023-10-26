@@ -21,8 +21,16 @@ function game_world_update() {
 		if (instance_exists(ids[i])) ids[i].update();
 		else ds_map_delete(global.game_world_instances, ids[i]);
 	}
-	var player = instance_find(obj_player, 0);
-	show_debug_message($"({player.x}, {player.y})");
 	
-	camera_set_view_pos(view_camera[0], player.x, player.y);
+	// camera follows player
+	var player = instance_find(obj_player, 0);
+	var camera_width = camera_get_view_width(view_camera[0]);
+	var camera_height = camera_get_view_height(view_camera[0]);
+	var player_width = sprite_get_width(player.sprite_index);
+	var player_height = sprite_get_height(player.sprite_index);
+	var camera_x = player.x - camera_width / 2 + player_width / 2;
+	var camera_y = player.y - camera_height / 2 + player_height / 2;
+	camera_x = clamp(camera_x, 0, room_width - camera_width);
+	camera_y = clamp(camera_y, 0, room_height - camera_height);
+	camera_set_view_pos(view_camera[0], camera_x, camera_y);
 }

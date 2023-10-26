@@ -10,7 +10,13 @@ var box_width = 150;
 var box_height = 70;
 
 var box_x = display_get_gui_width() / 2 - box_width / 2;
-var box_y = display_get_gui_height() - box_height - 10;
+
+// assume top
+var box_y = 5;
+// move to bottom if player is top half of screen
+if (player_is_upper_half_of_screen()) {
+	box_y = display_get_gui_height() - box_height - 6;
+}
 
 draw_rectangle(box_x, box_y, box_x + box_width, box_y + box_height, false);
 
