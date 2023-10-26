@@ -15,6 +15,7 @@
   "ResourceOrderSettings": [
     {"name":"spr_laptop","order":13,"path":"sprites/spr_laptop/spr_laptop.yy",},
     {"name":"spr_guy_e","order":2,"path":"sprites/spr_guy_e/spr_guy_e.yy",},
+    {"name":"spr_pumpkin","order":17,"path":"sprites/spr_pumpkin/spr_pumpkin.yy",},
     {"name":"rm_change","order":4,"path":"rooms/rm_change/rm_change.yy",},
     {"name":"spr_kitchen_tile","order":3,"path":"sprites/spr_kitchen_tile/spr_kitchen_tile.yy",},
     {"name":"snd_music_ambient","order":22,"path":"sounds/snd_music_ambient/snd_music_ambient.yy",},
@@ -57,6 +58,8 @@
     {"name":"spr_guy_w","order":4,"path":"sprites/spr_guy_w/spr_guy_w.yy",},
     {"name":"spr_3d_printer","order":7,"path":"sprites/spr_3d_printer/spr_3d_printer.yy",},
     {"name":"spr_girl_n","order":2,"path":"sprites/spr_girl_n/spr_girl_n.yy",},
+    {"name":"spr_web","order":19,"path":"sprites/spr_web/spr_web.yy",},
+    {"name":"spr_bats","order":18,"path":"sprites/spr_bats/spr_bats.yy",},
     {"name":"spr_window","order":5,"path":"sprites/spr_window/spr_window.yy",},
     {"name":"spr_wall","order":12,"path":"sprites/spr_wall/spr_wall.yy",},
     {"name":"spr_room_change_trigger","order":3,"path":"sprites/spr_room_change_trigger/spr_room_change_trigger.yy",},

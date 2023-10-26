@@ -32,6 +32,7 @@
   "resources": [
     {"id":{"name":"spr_laptop","path":"sprites/spr_laptop/spr_laptop.yy",},},
     {"id":{"name":"spr_guy_e","path":"sprites/spr_guy_e/spr_guy_e.yy",},},
+    {"id":{"name":"spr_pumpkin","path":"sprites/spr_pumpkin/spr_pumpkin.yy",},},
     {"id":{"name":"rm_change","path":"rooms/rm_change/rm_change.yy",},},
     {"id":{"name":"spr_kitchen_tile","path":"sprites/spr_kitchen_tile/spr_kitchen_tile.yy",},},
     {"id":{"name":"obj_room_change","path":"objects/obj_room_change/obj_room_change.yy",},},
@@ -81,7 +82,9 @@
     {"id":{"name":"spr_guy_w","path":"sprites/spr_guy_w/spr_guy_w.yy",},},
     {"id":{"name":"spr_3d_printer","path":"sprites/spr_3d_printer/spr_3d_printer.yy",},},
     {"id":{"name":"spr_girl_n","path":"sprites/spr_girl_n/spr_girl_n.yy",},},
+    {"id":{"name":"spr_web","path":"sprites/spr_web/spr_web.yy",},},
     {"id":{"name":"obj_interact","path":"objects/obj_interact/obj_interact.yy",},},
+    {"id":{"name":"spr_bats","path":"sprites/spr_bats/spr_bats.yy",},},
     {"id":{"name":"spr_window","path":"sprites/spr_window/spr_window.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"spr_room_change_trigger","path":"sprites/spr_room_change_trigger/spr_room_change_trigger.yy",},},
