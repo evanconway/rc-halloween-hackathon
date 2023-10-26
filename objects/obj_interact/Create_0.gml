@@ -4,7 +4,8 @@ draw_set_color(c_red);
 
 dialog_data = ["No dialog defined yet."];
 
-character = random(1) > 0.5 ? CHARACTERS.GIRL : CHARACTERS.GUY;
+interact_init_char_data();
+
 dir_reset_countdown = 0;
 image_speed = 0;
 
@@ -17,5 +18,3 @@ update = function() {
 		sprite_index = character_sprite(character, dir);
 	}
 }
-
-image_blend = make_color_rgb(random(255), random(255), random(255));
