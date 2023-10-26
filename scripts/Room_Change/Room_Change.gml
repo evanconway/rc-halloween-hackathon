@@ -2,7 +2,7 @@ global.room_change = {
 	target_room: undefined,
 	target_spawn: noone,
 	state: 0,
-	alpha: 0
+	alpha: 1
 };
 
 function room_change_init() {

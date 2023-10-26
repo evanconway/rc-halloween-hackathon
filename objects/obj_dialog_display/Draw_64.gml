@@ -20,7 +20,6 @@ if (player_is_upper_half_of_screen()) {
 
 draw_rectangle(box_x, box_y, box_x + box_width, box_y + box_height, false);
 
-
 draw_set_color(c_white);
 draw_set_alpha(1);
 
