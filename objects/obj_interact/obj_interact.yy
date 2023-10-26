@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "rc-halloween-hackathon",
-    "path": "rc-halloween-hackathon.yyp",
+    "name": "Interact",
+    "path": "folders/Interact.yy",
   },
   "parentObjectId": {
     "name": "obj_wall",

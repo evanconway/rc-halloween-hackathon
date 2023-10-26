@@ -56,3 +56,17 @@ We forgot to take notes earlier. We were able to pretty up the dialog box, add s
 Basic music playback added.
 
 Basic sounds added.
+
+Ok, we're done to the last hours and we don't even have a game world. Never mind a plot, or characters, or testing. We need to make the 2 RC floors as fast as possible. Let's open the RC tour page and make a quick list of objects we see. Then we'll make sprites that fit our 10x10 pixel tile.
+
+walls
+kitchen table
+kitchen chairs (all directions)
+work table
+work chair
+computer (all directions)
+bookcase
+windows
+doors (all directions)
+signs??
+elevator

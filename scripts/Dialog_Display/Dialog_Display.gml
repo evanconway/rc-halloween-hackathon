@@ -62,7 +62,7 @@ function dialog_display_update() {
 	
 	if (keyboard_check_pressed(vk_space)) {
 		global.text_cursor = 1;
-		global.text_advance = 0;
+		global.text_advance = 1;
 		// feather ignore GM1041
 		if (dialog_is_at_end(global.dialog)) {
 			global.dialog = undefined;

@@ -67,16 +67,15 @@ update = function() {
 		// set interact sprite to face player
 		var diff_x = abs(interact.x - x);
 		var diff_y = abs(interact.y - y);
+		var new_dir = DIR.SOUTH;
 		if (diff_x > diff_y) {
-			interact.sprite_index = character_sprite(
-				interact.character, 
-				x < interact.x ? DIR.WEST : DIR.EAST
-			);
+			new_dir = x < interact.x ? DIR.WEST : DIR.EAST;
+			interact.sprite_index = character_sprite(interact.character, new_dir);
 		} else {
-			interact.sprite_index = character_sprite(
-				interact.character, 
-				y < interact.y ? DIR.NORTH : DIR.SOUTH
-			);
+			new_dir = y < interact.y ? DIR.NORTH : DIR.SOUTH;
+			interact.sprite_index = character_sprite(interact.character, new_dir);
 		}
+		interact.dir_reset_countdown = 100;
+		interact.dir = new_dir;
 	}
 };
