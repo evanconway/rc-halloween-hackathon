@@ -2,13 +2,13 @@ game_world_init_instance();
 
 image_speed = 0;
 pixel_move = new PixelMove(x, y);
-player_dir = DIR.SOUTH;
+player_dir = DIR.EAST;
 interact_x = 0;
 interact_y = 0;
 character = CHARACTERS.GUY;
 frame_progress = 0;
 
-sprite_index = character_sprite(character, DIR.SOUTH);
+sprite_index = character_sprite(character, player_dir);
 
 update = function() {
 	var vel = 1;
