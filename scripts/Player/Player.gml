@@ -24,5 +24,5 @@ function player_is_upper_half_of_screen() {
 	var player_y = player.y + player_height / 2;
 	var camera_height = camera_get_view_height(view_camera[0]);
 	var camera_y = camera_get_view_y(view_camera[0]) + camera_height / 2;
-	return player_y < camera_y;
+	return player_y <= camera_y;
 }
