@@ -1,5 +1,7 @@
 game_world_init_instance();
 
+draw_set_color(c_red);
+
 dialog_data = ["No dialog defined yet."];
 
 character = random(1) > 0.5 ? CHARACTERS.GIRL : CHARACTERS.GUY;

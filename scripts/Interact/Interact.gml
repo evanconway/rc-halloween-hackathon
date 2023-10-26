@@ -8,3 +8,8 @@ function interact_set_direction(new_dir=DIR.SOUTH) {
 	dir = original_dir;
 	sprite_index = character_sprite(character, dir);
 }
+
+function interact_set_dialog_and_invisible(new_dialog_data) {
+	dialog_data = new_dialog_data;
+	image_alpha = 0;
+}

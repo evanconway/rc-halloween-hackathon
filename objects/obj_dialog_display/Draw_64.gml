@@ -7,7 +7,7 @@ draw_set_alpha(1);
 draw_set_color(c_black);
 
 var box_width = 150;
-var box_height = 70;
+var box_height = 74;
 
 var box_x = display_get_gui_width() / 2 - box_width / 2;
 
