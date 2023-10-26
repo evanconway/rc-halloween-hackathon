@@ -4,7 +4,7 @@ draw_set_font(fnt_generic);
 draw_set_alpha(1);
 
 // draw background box
-draw_set_color(c_black);
+draw_set_color(c_white);
 
 var box_width = 150;
 var box_height = 74;
@@ -19,9 +19,10 @@ if (player_is_upper_half_of_screen()) {
 }
 
 draw_rectangle(box_x, box_y, box_x + box_width, box_y + box_height, false);
+draw_set_color(c_black);
+draw_rectangle(box_x + 1, box_y + 1, box_x + box_width - 1, box_y + box_height - 1, false);
 
 draw_set_color(c_white);
-draw_set_alpha(1);
 
 var height = string_height("A");
 

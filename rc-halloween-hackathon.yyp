@@ -60,6 +60,7 @@
     {"id":{"name":"Interact","path":"scripts/Interact/Interact.yy",},},
     {"id":{"name":"obj_room_change_spawn","path":"objects/obj_room_change_spawn/obj_room_change_spawn.yy",},},
     {"id":{"name":"spr_kitchen_table","path":"sprites/spr_kitchen_table/spr_kitchen_table.yy",},},
+    {"id":{"name":"rm_floor_5","path":"rooms/rm_floor_5/rm_floor_5.yy",},},
     {"id":{"name":"spr_lounge_table_v","path":"sprites/spr_lounge_table_v/spr_lounge_table_v.yy",},},
     {"id":{"name":"PixelUtil","path":"scripts/PixelUtil/PixelUtil.yy",},},
     {"id":{"name":"obj_dialog_display","path":"objects/obj_dialog_display/obj_dialog_display.yy",},},
@@ -70,6 +71,7 @@
     {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"id":{"name":"PixelMove","path":"scripts/PixelMove/PixelMove.yy",},},
     {"id":{"name":"Player","path":"scripts/Player/Player.yy",},},
+    {"id":{"name":"spr_elevator_door","path":"sprites/spr_elevator_door/spr_elevator_door.yy",},},
     {"id":{"name":"Game_World","path":"scripts/Game_World/Game_World.yy",},},
     {"id":{"name":"spr_fridge","path":"sprites/spr_fridge/spr_fridge.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
@@ -97,6 +99,7 @@
     {"roomId":{"name":"rm_change","path":"rooms/rm_change/rm_change.yy",},},
     {"roomId":{"name":"rm_bigger","path":"rooms/rm_bigger/rm_bigger.yy",},},
     {"roomId":{"name":"rm_floor_4","path":"rooms/rm_floor_4/rm_floor_4.yy",},},
+    {"roomId":{"name":"rm_floor_5","path":"rooms/rm_floor_5/rm_floor_5.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
