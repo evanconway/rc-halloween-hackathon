@@ -1,7 +1,8 @@
+global.dialog = undefined;
+global.text_cursor = 0;
+global.text_advance = 0;
+
 function dialog_display_init() {
-	global.dialog = undefined;
-	global.text_cursor = 0;
-	global.text_advance = 0;
 	instance_create_depth(0, 0, 0, obj_dialog_display);
 }
 
@@ -22,6 +23,7 @@ file instead of manually putting it in a room
 function dialog_display_set_dialog(dialog) {
 	global.dialog = dialog;
 	global.text_cursor = 1;
+	global.text_advance = 1;
 }
 
 function dialog_display_get_text() {
@@ -42,11 +44,17 @@ function dialog_display_update() {
 	var text_length = string_length(text);
 	if (global.text_cursor <= text_length) {
 		global.text_advance += 0.1;
+		var speak = false;
 		if (global.text_advance >= 1) {
 			global.text_advance = 0;
 			global.text_cursor = string_pos_ext(" ", text, global.text_cursor + 1);
+			speak = true;
 		}
-		if (keyboard_check_pressed(vk_anykey) || global.text_cursor <= 0) global.text_cursor = text_length + 1;
+		if (keyboard_check_pressed(vk_anykey) || global.text_cursor <= 0) {
+			global.text_cursor = text_length + 1;
+			speak = true;
+		}
+		if (speak) play_sound(snd_speech);
 		return;
 	}
 	

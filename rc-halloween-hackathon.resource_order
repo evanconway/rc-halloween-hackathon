@@ -20,6 +20,8 @@
     {"name":"spr_girl_e","order":1,"path":"sprites/spr_girl_e/spr_girl_e.yy",},
     {"name":"Character_Sprites","order":3,"path":"scripts/Character_Sprites/Character_Sprites.yy",},
     {"name":"Room_Change","order":1,"path":"scripts/Room_Change/Room_Change.yy",},
+    {"name":"snd_speech","order":24,"path":"sounds/snd_speech/snd_speech.yy",},
+    {"name":"snd_scuff","order":25,"path":"sounds/snd_scuff/snd_scuff.yy",},
     {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},
     {"name":"Util","order":4,"path":"scripts/Util/Util.yy",},
     {"name":"fnt_generic","order":1,"path":"fonts/fnt_generic/fnt_generic.yy",},
@@ -40,7 +42,7 @@
     {"name":"obj_interact","order":9,"path":"objects/obj_interact/obj_interact.yy",},
     {"name":"spr_wall","order":12,"path":"sprites/spr_wall/spr_wall.yy",},
     {"name":"spr_room_change_trigger","order":3,"path":"sprites/spr_room_change_trigger/spr_room_change_trigger.yy",},
-    {"name":"Music","order":23,"path":"scripts/Music/Music.yy",},
+    {"name":"Audio","order":23,"path":"scripts/Audio/Audio.yy",},
     {"name":"obj_wall","order":11,"path":"objects/obj_wall/obj_wall.yy",},
   ],
 }

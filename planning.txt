@@ -52,3 +52,7 @@ The next two big features I see missing are a better camera and improved text bo
 25th of October, 2023
 
 We forgot to take notes earlier. We were able to pretty up the dialog box, add simple typing effects, and get the camera to follow the player. Some of these features have some small bugs but I'm not too worried about them right now. I actually wonder if we should focus on making the game at this point. I'd like a music track for floor 4, floor 5, maybe the elevator, and perhaps a track for moments of suspense. The problem is it's very hard to know exactly what we'll need? Also we don't have any characters besides the two we made. I'm very unsure how to prioritize. We have about 16 hours to finish this thing at this point. Perhaps when we get home we should try and determine some level of story so we can best determine what assets to make. Or maybe it's better to make the levels so players have something to explore? On reflection I think we should make the RC world, and create some basic music and sfx. Then we could easily just throw random characters into the world with dialog so the players have something to explore. Let's try building floor 4 of RC and see how we feel.
+
+Basic music playback added.
+
+Basic sounds added.
