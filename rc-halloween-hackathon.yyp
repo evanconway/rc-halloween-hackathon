@@ -64,6 +64,7 @@
     {"id":{"name":"rm_floor_5","path":"rooms/rm_floor_5/rm_floor_5.yy",},},
     {"id":{"name":"spr_lounge_table_v","path":"sprites/spr_lounge_table_v/spr_lounge_table_v.yy",},},
     {"id":{"name":"PixelUtil","path":"scripts/PixelUtil/PixelUtil.yy",},},
+    {"id":{"name":"spr_rc_rug","path":"sprites/spr_rc_rug/spr_rc_rug.yy",},},
     {"id":{"name":"obj_dialog_display","path":"objects/obj_dialog_display/obj_dialog_display.yy",},},
     {"id":{"name":"spr_floor_wood","path":"sprites/spr_floor_wood/spr_floor_wood.yy",},},
     {"id":{"name":"spr_shirt_table","path":"sprites/spr_shirt_table/spr_shirt_table.yy",},},
